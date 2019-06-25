@@ -1,0 +1,55 @@
+
+namespace org.example.basic
+
+
+
+// defines an asset to store temperature values
+asset Temperature identified by name {
+  o String name
+  o Integer value
+}
+
+// defines the DynamicConstant asset
+// we use it here to define a temperature threshold
+// -> typically 'Threshold_Tabc'
+asset DynCst identified by name {
+  o String name
+  o Integer value
+}
+
+
+// tx to collect the last temperature value of a sensor
+// we assume that might be provided by an IoT device
+// this tx should be restrict to authorized persons/devices (with ACLs)
+// -> typically used to collect new temperatures from 'SensorABC' device
+transaction Collect {
+  o String temperature
+  o Integer newValue
+}
+
+// tx to create/update any dynamic constant
+// this tx must be restricted to authorized persons only (with ACLs)
+// -> typically to define 'Threshold_Tabc', the temperature threshold
+transaction Set {
+  o String name
+  o Integer newValue
+}
+
+// tx to check if the temperature is exceeding the threshold defined by the DynCst
+// if yes, an event is sent to notify the proper involved stakeholders
+// this tx has no restrictions (no ACLs), it represents the public functionality of the smart contract
+// -> typically, the threshold must be defined with the 'Set' tx and must be named 'Threshold_Tabc'
+transaction Notify {
+  o String temperature
+}
+
+
+// event to notify stakeholders that the temperature threshold is exceeded
+// -> typically used by the 'Notify' tx to send out an exceeded threshold
+event TemperatureExceeded {
+  o String msg
+}
+
+
+
+
