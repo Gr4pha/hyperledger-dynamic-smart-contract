@@ -18,7 +18,7 @@ About the installation procedures of the tools you should refer to the official 
 
 ### Hyperledger Composer Playground
 
-The first possibility, in a development purpose, is to use the *composer-playground* tool to directly import the BNA (or copy-paste the .cto and .js files). Then, you will be able to play and test the smart contract without dependencies.
+The first possibility, in a development purpose, is to use the *composer-playground* tool to directly import the BNA (or copy-paste the .cto and .js files). Then, you will be able to play and test the smart contract without the Hyperledger Fabric dependencies.
 
 ```bash
 $ composer-playground -p 8080
@@ -36,6 +36,7 @@ $ docker-compose -f network.yaml up
 [Composer] Deploys smart contract over nodes...
 $ composer network install --card <card> --archiveFile dyn-sc.bna
 $ composer network start --card <card> --networkName dyn-sc --networkVersion 0.1.0 -A <Admin> -S <AdminPassword>
+$ composer transaction submit --card <card> --data <json_data>
 ```
 
 *Note: It still possible to reimplement the smart contract / proof of concept directly over Hyperledger Fabric to avoid using Hyperledger Composer. It was just a choice in order to save our time.*
