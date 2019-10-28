@@ -1,0 +1,441 @@
+
+→ Printing stats of the machine...
+  >>> 'lsb_release -a'
+Distributor ID:	Ubuntu
+Description:	Ubuntu 18.04.3 LTS
+Release:	18.04
+Codename:	bionic
+  >>> 'uname -a'
+Linux user-VirtualBox 4.15.0-65-generic #74-Ubuntu SMP Tue Sep 17 17:06:04 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+← Done.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+→ Starting ganache-cli...
+Ganache-cli PID: 28840
+← Done.
+
+→ Deploying smart contract with Truffle...
+← Done.
+
+→ Starting benchmark of 2 tx...
+Using network 'development'.
+
+[starting]
+----------------------------------------------------
+[IN]
+Nb tx: 2
+----------------------------------------------------
+[OUT]
+Nb Block: 4
+Avg tx / Block: 0.5
+Bsize: 1000
+Nb tx: 0
+Time spent (s): 52
+Time spent (min): 1
+----------------------------------------------------
+Total time spent (s): 53
+----------------------------------------------------
+[ending]
+← Done.
+→ Killing Ganache...
+← Done.
+################################################################################
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+→ Starting ganache-cli...
+Ganache-cli PID: 29759
+← Done.
+
+→ Deploying smart contract with Truffle...
+← Done.
+
+→ Starting benchmark of 4 tx...
+Using network 'development'.
+
+[starting]
+----------------------------------------------------
+[IN]
+Nb tx: 4
+----------------------------------------------------
+[OUT]
+Nb Block: 8
+Avg tx / Block: 0.5
+Bsize: 1000
+Nb tx: 0
+Time spent (s): 114
+Time spent (min): 2
+----------------------------------------------------
+Total time spent (s): 114
+----------------------------------------------------
+[ending]
+← Done.
+→ Killing Ganache...
+← Done.
+################################################################################
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+→ Starting ganache-cli...
+Ganache-cli PID: 31080
+← Done.
+
+→ Deploying smart contract with Truffle...
+← Done.
+
+→ Starting benchmark of 8 tx...
+Using network 'development'.
+
+[starting]
+----------------------------------------------------
+[IN]
+Nb tx: 8
+----------------------------------------------------
+[OUT]
+Nb Block: 16
+Avg tx / Block: 0.5
+Bsize: 1000
+Nb tx: 0
+Time spent (s): 235
+Time spent (min): 4
+----------------------------------------------------
+Total time spent (s): 235
+----------------------------------------------------
+[ending]
+← Done.
+→ Killing Ganache...
+← Done.
+################################################################################
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+→ Starting ganache-cli...
+Ganache-cli PID: 831
+← Done.
+
+→ Deploying smart contract with Truffle...
+← Done.
+
+→ Starting benchmark of 10 tx...
+Using network 'development'.
+
+[starting]
+----------------------------------------------------
+[IN]
+Nb tx: 10
+----------------------------------------------------
+[OUT]
+Nb Block: 20
+Avg tx / Block: 0.5
+Bsize: 1000
+Nb tx: 0
+Time spent (s): 294
+Time spent (min): 5
+----------------------------------------------------
+Total time spent (s): 294
+----------------------------------------------------
+[ending]
+← Done.
+→ Killing Ganache...
+← Done.
+################################################################################
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+→ Starting ganache-cli...
+Ganache-cli PID: 3820
+← Done.
+
+→ Deploying smart contract with Truffle...
+← Done.
+
+→ Starting benchmark of 20 tx...
+Using network 'development'.
+
+[starting]
+----------------------------------------------------
+[IN]
+Nb tx: 20
+----------------------------------------------------
+[OUT]
+Nb Block: 40
+Avg tx / Block: 0.5
+Bsize: 1000
+Nb tx: 0
+Time spent (s): 596
+Time spent (min): 10
+----------------------------------------------------
+Total time spent (s): 596
+----------------------------------------------------
+[ending]
+← Done.
+→ Killing Ganache...
+← Done.
+################################################################################
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+→ Starting ganache-cli...
+Ganache-cli PID: 8484
+← Done.
+
+→ Deploying smart contract with Truffle...
+← Done.
+
+→ Starting benchmark of 30 tx...
+Using network 'development'.
+
+[starting]
+----------------------------------------------------
+[IN]
+Nb tx: 30
+----------------------------------------------------
+[OUT]
+Nb Block: 60
+Avg tx / Block: 0.5
+Bsize: 1000
+Nb tx: 0
+Time spent (s): 894
+Time spent (min): 15
+----------------------------------------------------
+Total time spent (s): 894
+----------------------------------------------------
+[ending]
+← Done.
+→ Killing Ganache...
+← Done.
+################################################################################
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+→ Starting ganache-cli...
+Ganache-cli PID: 15422
+← Done.
+
+→ Deploying smart contract with Truffle...
+← Done.
+
+→ Starting benchmark of 40 tx...
+Using network 'development'.
+
+[starting]
+----------------------------------------------------
+[IN]
+Nb tx: 40
+----------------------------------------------------
+[OUT]
+Nb Block: 80
+Avg tx / Block: 0.5
+Bsize: 1000
+Nb tx: 0
+Time spent (s): 1194
+Time spent (min): 20
+----------------------------------------------------
+Total time spent (s): 1194
+----------------------------------------------------
+[ending]
+← Done.
+→ Killing Ganache...
+← Done.
+################################################################################
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+→ Starting ganache-cli...
+Ganache-cli PID: 24791
+← Done.
+
+→ Deploying smart contract with Truffle...
+← Done.
+
+→ Starting benchmark of 50 tx...
+Using network 'development'.
+
+[starting]
+----------------------------------------------------
+[IN]
+Nb tx: 50
+----------------------------------------------------
+[OUT]
+Nb Block: 100
+Avg tx / Block: 0.5
+Bsize: 1000
+Nb tx: 0
+Time spent (s): 1495
+Time spent (min): 25
+----------------------------------------------------
+Total time spent (s): 1495
+----------------------------------------------------
+[ending]
+← Done.
+→ Killing Ganache...
+← Done.
+################################################################################
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+→ Starting ganache-cli...
+Ganache-cli PID: 4101
+← Done.
+
+→ Deploying smart contract with Truffle...
+← Done.
+
+→ Starting benchmark of 100 tx...
+Using network 'development'.
+
+[starting]
+----------------------------------------------------
+[IN]
+Nb tx: 100
+----------------------------------------------------
+[OUT]
+Nb Block: 200
+Avg tx / Block: 0.5
+Bsize: 1000
+Nb tx: 0
+Time spent (s): 2998
+Time spent (min): 50
+----------------------------------------------------
+Total time spent (s): 2999
+----------------------------------------------------
+[ending]
+← Done.
+→ Killing Ganache...
+← Done.
+################################################################################
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+→ Starting ganache-cli...
+Ganache-cli PID: 26503
+← Done.
+
+→ Deploying smart contract with Truffle...
+← Done.
+
+→ Starting benchmark of 200 tx...
+Using network 'development'.
+
+[starting]
+----------------------------------------------------
+[IN]
+Nb tx: 200
+----------------------------------------------------
+[OUT]
+Nb Block: 400
+Avg tx / Block: 0.5
+Bsize: 1000
+Nb tx: 0
+Time spent (s): 6006
+Time spent (min): 100
+----------------------------------------------------
+Total time spent (s): 6009
+----------------------------------------------------
+[ending]
+← Done.
+→ Killing Ganache...
+← Done.
+################################################################################
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+→ Starting ganache-cli...
+Ganache-cli PID: 13198
+← Done.
+
+→ Deploying smart contract with Truffle...
+← Done.
+
+→ Starting benchmark of 500 tx...
+Using network 'development'.
+
+[starting]
+----------------------------------------------------
+[IN]
+Nb tx: 500
+----------------------------------------------------
+[OUT]
+Nb Block: 1000
+Avg tx / Block: 0.5
+Bsize: 1000
+Nb tx: 0
+Time spent (s): 15018
+Time spent (min): 250
+----------------------------------------------------
+Total time spent (s): 15024
+----------------------------------------------------
+[ending]
+← Done.
+→ Killing Ganache...
+← Done.
+################################################################################
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+→ Starting ganache-cli...
+Ganache-cli PID: 30018
+← Done.
+
+→ Deploying smart contract with Truffle...
+← Done.
+
+→ Starting benchmark of 1000 tx...
+Using network 'development'.
+
+[starting]
+----------------------------------------------------
+[IN]
+Nb tx: 1000
+----------------------------------------------------
+[OUT]
+Nb Block: 2000
+Avg tx / Block: 0.5
+Bsize: 1000
+Nb tx: 0
+Time spent (s): 30045
+Time spent (min): 501
+----------------------------------------------------
+Total time spent (s): 30058
+----------------------------------------------------
+[ending]
+← Done.
+→ Killing Ganache...
+← Done.
+################################################################################
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+→ Starting ganache-cli...
+Ganache-cli PID: 4439
+← Done.
+
+→ Deploying smart contract with Truffle...
+← Done.
+
+→ Starting benchmark of 2000 tx...
+Using network 'development'.
+
+[starting]
+----------------------------------------------------
+[IN]
+Nb tx: 2000
+----------------------------------------------------
+[OUT]
+Nb Block: 1061
+Avg tx / Block: 1.885014137606032
+Bsize: 1000
+Nb tx: 0
+Time spent (s): 60095
+Time spent (min): 1002
+----------------------------------------------------
+Total time spent (s): 60104
+----------------------------------------------------
+[ending]
+← Done.
+→ Killing Ganache...
+← Done.
+################################################################################
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+→ Starting ganache-cli...
+Ganache-cli PID: 10832
+← Done.
+
+→ Deploying smart contract with Truffle...
+← Done.
+
+→ Starting benchmark of 5000 tx...
+← Done.
+→ Killing Ganache...
+← Done.
+################################################################################
