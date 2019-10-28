@@ -1,0 +1,321 @@
+
+→ Printing stats of the machine...
+  >>> 'lsb_release -a'
+Distributor ID:	Ubuntu
+Description:	Ubuntu 18.04.3 LTS
+Release:	18.04
+Codename:	bionic
+  >>> 'uname -a'
+Linux user-VirtualBox 4.15.0-65-generic #74-Ubuntu SMP Tue Sep 17 17:06:04 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+← Done.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+→ Starting hurley...
+← Done.
+
+→ Deploying smart contract with Hurley...
+← Done.
+
+→ Starting benchmark of 20 tx...
+← Done.
+
+→ Computing data...
+----------------------------------------------------
+[IN]
+Nb tx: 20
+----------------------------------------------------
+[OUT]
+Nb Block: 42
+Avg tx / Block: 1
+Avg Block size (KB): 8.0
+Nb tx: 42
+Time spent (s): 154
+Time spent (min): 2
+----------------------------------------------------
+Total time spent (s): 315
+----------------------------------------------------
+← Done.
+
+→ Stoping hurley...
+← Done.
+################################################################################
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+→ Starting hurley...
+← Done.
+
+→ Deploying smart contract with Hurley...
+← Done.
+
+→ Starting benchmark of 30 tx...
+← Done.
+
+→ Computing data...
+----------------------------------------------------
+[IN]
+Nb tx: 30
+----------------------------------------------------
+[OUT]
+Nb Block: 62
+Avg tx / Block: 1
+Avg Block size (KB): 8.0
+Nb tx: 62
+Time spent (s): 225
+Time spent (min): 3
+----------------------------------------------------
+Total time spent (s): 385
+----------------------------------------------------
+← Done.
+
+→ Stoping hurley...
+← Done.
+################################################################################
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+→ Starting hurley...
+← Done.
+
+→ Deploying smart contract with Hurley...
+← Done.
+
+→ Starting benchmark of 40 tx...
+← Done.
+
+→ Computing data...
+----------------------------------------------------
+[IN]
+Nb tx: 40
+----------------------------------------------------
+[OUT]
+Nb Block: 82
+Avg tx / Block: 1
+Avg Block size (KB): 8.0
+Nb tx: 82
+Time spent (s): 304
+Time spent (min): 5
+----------------------------------------------------
+Total time spent (s): 482
+----------------------------------------------------
+← Done.
+
+→ Stoping hurley...
+← Done.
+################################################################################
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+→ Starting hurley...
+← Done.
+
+→ Deploying smart contract with Hurley...
+← Done.
+
+→ Starting benchmark of 50 tx...
+← Done.
+
+→ Computing data...
+----------------------------------------------------
+[IN]
+Nb tx: 50
+----------------------------------------------------
+[OUT]
+Nb Block: 102
+Avg tx / Block: 1
+Avg Block size (KB): 8.0
+Nb tx: 102
+Time spent (s): 369
+Time spent (min): 6
+----------------------------------------------------
+Total time spent (s): 557
+----------------------------------------------------
+← Done.
+
+→ Stoping hurley...
+← Done.
+################################################################################
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+→ Starting hurley...
+← Done.
+
+→ Deploying smart contract with Hurley...
+← Done.
+
+→ Starting benchmark of 100 tx...
+← Done.
+
+→ Computing data...
+----------------------------------------------------
+[IN]
+Nb tx: 100
+----------------------------------------------------
+[OUT]
+Nb Block: 202
+Avg tx / Block: 1
+Avg Block size (KB): 8.0
+Nb tx: 202
+Time spent (s): 757
+Time spent (min): 12
+----------------------------------------------------
+Total time spent (s): 1035
+----------------------------------------------------
+← Done.
+
+→ Stoping hurley...
+← Done.
+################################################################################
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+→ Starting hurley...
+← Done.
+
+→ Deploying smart contract with Hurley...
+← Done.
+
+→ Starting benchmark of 200 tx...
+← Done.
+
+→ Computing data...
+----------------------------------------------------
+[IN]
+Nb tx: 200
+----------------------------------------------------
+[OUT]
+Nb Block: 402
+Avg tx / Block: 1
+Avg Block size (KB): 8.0
+Nb tx: 402
+Time spent (s): 1468
+Time spent (min): 24
+----------------------------------------------------
+Total time spent (s): 1894
+----------------------------------------------------
+← Done.
+
+→ Stoping hurley...
+← Done.
+################################################################################
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+→ Starting hurley...
+← Done.
+
+→ Deploying smart contract with Hurley...
+← Done.
+
+→ Starting benchmark of 500 tx...
+← Done.
+
+→ Computing data...
+----------------------------------------------------
+[IN]
+Nb tx: 500
+----------------------------------------------------
+[OUT]
+Nb Block: 1002
+Avg tx / Block: 1
+Avg Block size (KB): 8.0
+Nb tx: 1002
+Time spent (s): 3613
+Time spent (min): 60
+----------------------------------------------------
+Total time spent (s): 4610
+----------------------------------------------------
+← Done.
+
+→ Stoping hurley...
+← Done.
+################################################################################
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+→ Starting hurley...
+← Done.
+
+→ Deploying smart contract with Hurley...
+← Done.
+
+→ Starting benchmark of 1000 tx...
+← Done.
+
+→ Computing data...
+----------------------------------------------------
+[IN]
+Nb tx: 1000
+----------------------------------------------------
+[OUT]
+Nb Block: 2001
+Avg tx / Block: 1
+Avg Block size (KB): 8.0
+Nb tx: 2001
+Time spent (s): 7395
+Time spent (min): 123
+----------------------------------------------------
+Total time spent (s): 9915
+----------------------------------------------------
+← Done.
+
+→ Stoping hurley...
+← Done.
+################################################################################
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+→ Starting hurley...
+← Done.
+
+→ Deploying smart contract with Hurley...
+← Done.
+
+→ Starting benchmark of 2000 tx...
+← Done.
+
+→ Computing data...
+----------------------------------------------------
+[IN]
+Nb tx: 2000
+----------------------------------------------------
+[OUT]
+Nb Block: 4002
+Avg tx / Block: 
+Avg Block size (KB): 6.64
+Nb tx: 3326
+Time spent (s): 14689
+Time spent (min): 244
+----------------------------------------------------
+Total time spent (s): 24369
+----------------------------------------------------
+← Done.
+
+→ Stoping hurley...
+← Done.
+################################################################################
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+→ Starting hurley...
+← Done.
+
+→ Deploying smart contract with Hurley...
+← Done.
+
+→ Starting benchmark of 5000 tx...
+← Done.
+
+→ Computing data...
+----------------------------------------------------
+[IN]
+Nb tx: 5000
+----------------------------------------------------
+[OUT]
+Nb Block: 10002
+Avg tx / Block: 
+Avg Block size (KB): 2.66
+Nb tx: 3326
+Time spent (s): 36067
+Time spent (min): 601
+----------------------------------------------------
+Total time spent (s): 71953
+----------------------------------------------------
+← Done.
+
+→ Stoping hurley...
+← Done.
+################################################################################
