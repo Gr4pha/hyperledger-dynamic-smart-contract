@@ -48,7 +48,7 @@ $ time -p ./scripts/all_bench.sh 2>logs/err.log >> logs/bench.log
 
 No console output, just wait the end of it. Logs can be seen during or after the end of the bench.
 
-See _'scripts/*'_ to adapt the bench as defined into *'bench.js'* and *'all_bench.sh'*.
+See _'scripts/*'_ to adapt the bench as defined into _'bench.js'_ and _'all_bench.sh'_.
 
 Refer to files in _'logs/*'_ to get our results.
 
