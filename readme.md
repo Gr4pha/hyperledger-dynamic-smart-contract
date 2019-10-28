@@ -65,7 +65,7 @@ See *'v2/dynsc-eth'*.
 
 #### Hyperledger Fabric with Convector & Hurley
 
-See *'v2/dynsc-eth'*.
+See *'v2/dynsc-hlf'*.
 
 
 ---
