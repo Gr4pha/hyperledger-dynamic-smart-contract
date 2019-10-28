@@ -1,0 +1,11 @@
+{
+  "txTimeout": 300000,
+  "skipInit": true,
+  "controllers": [
+    {
+      "name": "dynsc-cc",
+      "version": "file:./packages/dynsc-cc",
+      "controller": "DynscController"
+    }
+  ]
+}
