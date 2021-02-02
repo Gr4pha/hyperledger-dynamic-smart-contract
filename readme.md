@@ -3,6 +3,10 @@
 
 ---
 
+[[_TOC_]]
+
+---
+
 
 ## Goal
 
@@ -73,7 +77,9 @@ See *'v2/dynsc-hlf'*.
 
 ## Paper
 
-Submitted on the 25-10-2019.
+ - Draft version done on 07-2019.
+ - Submitted on the 25-10-2019.
+ - Conference given on [(27-29)-11-2019](https://www.poem2019conference.lu/). 
 
 
 ---
@@ -81,7 +87,7 @@ Submitted on the 25-10-2019.
 
 ## Code snippet
 
-The code available in this repository is developped and tested with *composer-playground*. It is composed of two main files: one model file *'dynsc.cto'* and one script file *'dynsc.js'*. These files are defining a small chaincode based on a simple use-case as a proof of concept. The *'dynsc.bna'* file is including the previous files, this is the smart contract exported by *composer* in a Business Archive Network.
+The code available in this repository is developped and tested with *composer-playground*. It is composed of two main files: one model file *'dynsc.cto'* and one script file *'dynsc.js'*. These files are defining a small chaincode based on a simple use-case as a proof of concept. The *'dynsc.bna'* file is including the previous files, this is the smart contract exported by *composer* in a *Business Archive Network (BNA)*.
 
 
 ---
